@@ -6,23 +6,21 @@ It provides a **RESTful API** for hotel room booking, ensuring:
 - **A room cannot be double booked for any given night.**.
 - **Any booking at the hotel must not require guests to change rooms at any point
 during their stay**.
-- **Booking numbers should be unique. There should not be overlapping at any
-given time.
-**.
+- **Booking numbers should be unique. There should not be overlapping at any given time.**.
 - **A room cannot be occupied by more people than its capacity**.
 
 ## Project Structure
 ```
 HotelBookingAPI/
-??? Controllers/          ? API controllers (Hotel & Booking)
-??? Data/                ? Database context & seeding logic
-??? Migrations/          ? Entity Framework Core migrations
-??? Models/              ? Entity models (Hotel, Room, Booking)
-??? DTOs/                ? Data Transfer Objects (DTOs)
-??? Services/            ? Business logic for hotel & booking operations
-??? appsettings.json     ? API configuration settings
-??? Program.cs           ? Application entry point
-??? README.md            ? Project documentation (this file)
+Controllers/          ? API controllers (Hotel & Booking)
+Data/                ? Database context & seeding logic
+Migrations/          ? Entity Framework Core migrations
+Models/              ? Entity models (Hotel, Room, Booking)
+DTOs/                ? Data Transfer Objects (DTOs)
+Services/            ? Business logic for hotel & booking operations
+appsettings.json     ? API configuration settings
+Program.cs           ? Application entry point
+README.md            ? Project documentation (this file)
 
 ```
 
@@ -37,7 +35,7 @@ Ensure you have:
 ### **Running the Project**
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/arshadte/HotelBookingAPI.git
+   git clone https://github.com/arshadte/HotelBooking2API.git
    cd HotelBookingAPI
    ```
 
@@ -52,7 +50,7 @@ Ensure you have:
    ```
 
 4. **Open the API in Swagger**:
-   - Navigate to ?? `https://localhost:7088/swagger`
+   - Navigate to `https://localhost:7088/swagger`
 
 ---
 
@@ -83,8 +81,6 @@ To run **integration tests**, use:
 ```sh
 dotnet test
 ```
-
----
 
 ### **Swagger**
 Once the API is running:
