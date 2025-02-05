@@ -6,9 +6,7 @@ It provides a **RESTful API** for hotel room booking, ensuring:
 - **A room cannot be double booked for any given night.**.
 - **Any booking at the hotel must not require guests to change rooms at any point
 during their stay**.
-- **Booking numbers should be unique. There should not be overlapping at any
-given time.
-**.
+- **Booking numbers should be unique. There should not be overlapping at any given time.**.
 - **A room cannot be occupied by more people than its capacity**.
 
 ## Project Structure
